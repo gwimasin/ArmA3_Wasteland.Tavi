@@ -1,0 +1,5730 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"A3_Characters_F_OPFOR",
+		"A3_Characters_F_INDEP",
+		"A3_Weapons_F",
+		"a3_weapons_f_longrangerifles_gm6",
+		"a3_weapons_f_longrangerifles_m320",
+		"A3_Characters_F_Civil",
+		"A3_Structures_F_Mil_Fortification",
+		"A3_Structures_F_Walls",
+		"A3_Structures_F_Households_House_Small01",
+		"a3_structures_f_households_stone_big",
+		"A3_Structures_F_Households_Stone_Shed",
+		"A3_Structures_F_Households_WIP",
+		"A3_Structures_F_Ind_Pipes",
+		"A3_Structures_F_Households_Addons",
+		"A3_Structures_F_Households_House_Big02",
+		"A3_Structures_F_Ind_FuelStation",
+		"A3_Structures_F_Furniture",
+		"A3_Structures_F_Households_Stone_Small",
+		"A3_Structures_F_Civ_Garbage",
+		"A3_Structures_F_Civ_Lamps",
+		"A3_Structures_F_Items_Vessels",
+		"A3_Structures_F_Civ_Constructions",
+		"A3_Structures_F_Wrecks",
+		"A3_Structures_F_Ind_PowerLines",
+		"A3_Structures_F_Households_House_Shop01",
+		"A3_Structures_F_Ind_Transmitter_Tower",
+		"A3_Structures_F_Civ_Dead",
+		"A3_Structures_F_Naval_RowBoats",
+		"A3_Structures_F_Mil_Flags",
+		"A3_Structures_F_Mil_Barracks",
+		"a3_structures_f_mil_shelters",
+		"A3_Structures_F_Training",
+		"A3_Structures_F_Ind_Cargo",
+		"A3_Structures_F_Dominants_Lighthouse",
+		"A3_Structures_F_Ind_Shed",
+		"A3_Structures_F_Naval_Piers",
+		"a3_structures_f_mil_bagfence",
+		"a3_structures_f_mil_bagbunker",
+		"a3_structures_f_items_luggage",
+		"a3_structures_f_items_valuables",
+		"a3_structures_f_items_cans",
+		"A3_Air_F_Heli_Light_01",
+		"A3_Air_F_Beta_Heli_Attack_01",
+		"A3_Air_F_Beta_Heli_Transport_01",
+		"A3_Soft_F_HEMTT",
+		"A3_Soft_F_Offroad_01",
+		"A3_Soft_F_MRAP_03",
+		"a3_soft_f_truckheavy",
+		"A3_Boat_F_Boat_Transport_01",
+		"a3_boat_f_beta_boat_transport_01",
+		"A3_Boat_F_Boat_Armed_01",
+		"a3_boat_f_beta_boat_armed_01",
+		"a3_armor_f_panther",
+		"A3_Boat_F_SDV_01",
+		"A3_Modules_F_Multiplayer",
+		"A3_Modules_F_Sites",
+		"a3_characters_f_beta",
+		"a3_characters_f_gamma",
+		"a3_characters_f",
+		"A3_Structures_F_EPC_Civ_Accessories",
+		"A3_Misc_F_Helpers",
+		"A3_Soft_F_EPC_Truck_03",
+		"A3_Soft_F_Gamma_HEMTT",
+		"tavi",
+		"A3_armor_f_beta_APC_Tracked_02",
+		"A3_Static_F_Gamma",
+		"a3_static_f",
+		"A3_Weapons_F_Ammoboxes",
+		"A3_Air_F_Gamma_Plane_Fighter_03",
+		"A3_Modules_F_HC"
+	};
+	addOnsAuto[]=
+	{
+		"A3_Characters_F_BLUFOR",
+		"a3_characters_f",
+		"A3_Characters_F_OPFOR",
+		"A3_Characters_F_INDEP",
+		"A3_Characters_F_Civil",
+		"A3_Modules_F_HC",
+		"A3_Structures_F_EPC_Civ_Accessories",
+		"A3_Misc_F_Helpers",
+		"A3_Soft_F_EPC_Truck_03",
+		"A3_Soft_F_Gamma_HEMTT",
+		"A3_Weapons_F_Ammoboxes",
+		"A3_armor_f_beta_APC_Tracked_02",
+		"A3_Static_F_Gamma",
+		"a3_static_f",
+		"A3_Air_F_Beta_Heli_Transport_01",
+		"A3_Air_F_Gamma_Plane_Fighter_03",
+		"tavi"
+	};
+	randomSeed=14957468;
+	class Intel
+	{
+		briefingName="TOP A3Wasteland Taviana v1.1 extDB";
+		overviewText="TOP Wasteland Conquest Taviana by TOPARMA.com. Core developed by A3Wasteland.com";
+		resistanceWest=0;
+		timeOfChanges=3e+038;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
+		year=2035;
+		month=6;
+		hour=6;
+		minute=0;
+		startFogDecay=0.001;
+		forecastFogDecay=0.001;
+	};
+	class Groups
+	{
+		items=80;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.434,610.85352,16670.715};
+					id=0;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					syncId=0;
+					synchronizations[]={0};
+				};
+				class Item1
+				{
+					position[]={13197.675,610.6712,16670.715};
+					id=1;
+					side="WEST";
+					vehicle="B_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.916,610.48889,16670.715};
+					id=2;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.161,610.36121,16670.701};
+					id=3;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item1
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.74261,16669.512};
+					id=4;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,610.56006,16669.512};
+					id=5;
+					side="WEST";
+					vehicle="B_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.916,610.37799,16669.512};
+					id=6;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,610.25061,16669.498};
+					id=7;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item2
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.63129,16668.305};
+					id=8;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,610.44873,16668.305};
+					id=9;
+					side="WEST";
+					vehicle="B_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,610.26642,16668.305};
+					id=10;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,610.1394,16668.293};
+					id=11;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item3
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.51703,16667.066};
+					id=12;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,610.33447,16667.066};
+					id=13;
+					side="WEST";
+					vehicle="B_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,610.15216,16667.066};
+					id=14;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,610.02527,16667.055};
+					id=15;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item4
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.40601,16665.861};
+					id=16;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,610.22345,16665.861};
+					id=17;
+					side="WEST";
+					vehicle="B_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,610.04114,16665.861};
+					id=18;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.91406,16665.85};
+					id=19;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item5
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.29535,16664.662};
+					id=20;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,610.11279,16664.662};
+					id=21;
+					side="WEST";
+					vehicle="B_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.93048,16664.662};
+					id=22;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.80347,16664.65};
+					id=23;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item6
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.1842,16663.457};
+					id=24;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,610.00165,16663.457};
+					id=25;
+					side="WEST";
+					vehicle="B_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.81934,16663.457};
+					id=26;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.69226,16663.445};
+					id=27;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item7
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,610.07019,16662.221};
+					id=28;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,609.88763,16662.221};
+					id=29;
+					side="WEST";
+					vehicle="B_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.70532,16662.221};
+					id=30;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.57825,16662.209};
+					id=31;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item8
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,609.95563,16660.979};
+					id=32;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,609.77307,16660.979};
+					id=33;
+					side="WEST";
+					vehicle="B_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.59076,16660.979};
+					id=34;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.46356,16660.965};
+					id=35;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item9
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,609.84131,16659.74};
+					id=36;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,609.65875,16659.74};
+					id=37;
+					side="WEST";
+					vehicle="B_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.47644,16659.74};
+					id=38;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.34943,16659.729};
+					id=39;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item10
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,609.72662,16658.496};
+					id=40;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,609.54407,16658.496};
+					id=41;
+					side="WEST";
+					vehicle="B_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.36176,16658.496};
+					id=42;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.23456,16658.482};
+					id=43;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item11
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13196.435,609.61218,16657.256};
+					id=44;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13197.676,609.42963,16657.256};
+					id=45;
+					side="WEST";
+					vehicle="B_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13198.917,609.24731,16657.256};
+					id=46;
+					side="WEST";
+					vehicle="B_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13200.162,609.12018,16657.242};
+					id=47;
+					side="WEST";
+					vehicle="B_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item12
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.786,610.69647,16670.715};
+					id=48;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.027,610.95178,16670.715};
+					id=49;
+					side="EAST";
+					vehicle="O_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.269,611.20685,16670.715};
+					id=50;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.514,611.46179,16670.703};
+					id=51;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item13
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,610.58588,16669.512};
+					id=52;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.84088,16669.512};
+					id=53;
+					side="EAST";
+					vehicle="O_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,611.09625,16669.512};
+					id=54;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.514,611.35077,16669.5};
+					id=55;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item14
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,610.47485,16668.309};
+					id=56;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.72986,16668.309};
+					id=57;
+					side="EAST";
+					vehicle="O_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.98523,16668.309};
+					id=58;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,611.24005,16668.295};
+					id=59;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item15
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,610.3606,16667.068};
+					id=60;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.6156,16667.068};
+					id=61;
+					side="EAST";
+					vehicle="O_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.87097,16667.068};
+					id=62;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,611.12579,16667.057};
+					id=63;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item16
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,610.24939,16665.863};
+					id=64;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.50439,16665.863};
+					id=65;
+					side="EAST";
+					vehicle="O_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.75977,16665.863};
+					id=66;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,611.01459,16665.852};
+					id=67;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item17
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,610.13873,16664.664};
+					id=68;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.39374,16664.664};
+					id=69;
+					side="EAST";
+					vehicle="O_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.64911,16664.664};
+					id=70;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,610.90399,16664.652};
+					id=71;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item18
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,610.02759,16663.459};
+					id=72;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.28259,16663.459};
+					id=73;
+					side="EAST";
+					vehicle="O_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.53796,16663.459};
+					id=74;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,610.79297,16663.447};
+					id=75;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item19
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,609.91357,16662.223};
+					id=76;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.16858,16662.223};
+					id=77;
+					side="EAST";
+					vehicle="O_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.42395,16662.223};
+					id=78;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,610.67883,16662.211};
+					id=79;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item20
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,609.79901,16660.98};
+					id=80;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,610.05402,16660.98};
+					id=81;
+					side="EAST";
+					vehicle="O_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.30939,16660.98};
+					id=82;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,610.56427,16660.969};
+					id=83;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item21
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.787,609.68475,16659.742};
+					id=84;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.028,609.93976,16659.742};
+					id=85;
+					side="EAST";
+					vehicle="O_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.27,610.19513,16659.742};
+					id=86;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.515,610.45013,16659.73};
+					id=87;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item22
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.785,609.5697,16658.498};
+					id=88;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.026,609.82471,16658.498};
+					id=89;
+					side="EAST";
+					vehicle="O_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.268,610.08008,16658.498};
+					id=90;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.513,610.33478,16658.484};
+					id=91;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item23
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13201.785,609.45532,16657.258};
+					id=92;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13203.026,609.71033,16657.258};
+					id=93;
+					side="EAST";
+					vehicle="O_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13204.268,609.9657,16657.258};
+					id=94;
+					side="EAST";
+					vehicle="O_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13205.513,610.22064,16657.246};
+					id=95;
+					side="EAST";
+					vehicle="O_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item24
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.178,611.80499,16670.715};
+					id=96;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,612.06036,16670.715};
+					id=97;
+					side="GUER";
+					vehicle="I_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.66,612.31537,16670.715};
+					id=98;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.905,612.57013,16670.701};
+					id=99;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item25
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.179,611.69409,16669.512};
+					id=100;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,611.94946,16669.512};
+					id=101;
+					side="GUER";
+					vehicle="I_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,612.20447,16669.512};
+					id=102;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,612.45923,16669.498};
+					id=103;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item26
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,611.58331,16668.307};
+					id=104;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,611.83832,16668.307};
+					id=105;
+					side="GUER";
+					vehicle="I_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,612.09332,16668.307};
+					id=106;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,612.34802,16668.293};
+					id=107;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item27
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,611.46887,16667.066};
+					id=108;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,611.72388,16667.066};
+					id=109;
+					side="GUER";
+					vehicle="I_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,611.97888,16667.066};
+					id=110;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,612.23389,16667.055};
+					id=111;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item28
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,611.35797,16665.863};
+					id=112;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.421,611.61328,16665.863};
+					id=113;
+					side="GUER";
+					vehicle="I_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.662,611.86829,16665.863};
+					id=114;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,612.12268,16665.85};
+					id=115;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item29
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,611.24731,16664.664};
+					id=116;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,611.50232,16664.664};
+					id=117;
+					side="GUER";
+					vehicle="I_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,611.75732,16664.664};
+					id=118;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,612.01208,16664.65};
+					id=119;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item30
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,611.13605,16663.457};
+					id=120;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.421,611.39136,16663.457};
+					id=121;
+					side="GUER";
+					vehicle="I_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.662,611.64636,16663.457};
+					id=122;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,611.90088,16663.445};
+					id=123;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item31
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,611.02216,16662.223};
+					id=124;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,611.27716,16662.223};
+					id=125;
+					side="GUER";
+					vehicle="I_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,611.53217,16662.223};
+					id=126;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,611.78687,16662.209};
+					id=127;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item32
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,610.90747,16660.979};
+					id=128;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.421,611.16278,16660.979};
+					id=129;
+					side="GUER";
+					vehicle="I_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.662,611.41779,16660.979};
+					id=130;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,611.6723,16660.967};
+					id=131;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item33
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,610.79333,16659.742};
+					id=132;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,611.04834,16659.742};
+					id=133;
+					side="GUER";
+					vehicle="I_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,611.30334,16659.742};
+					id=134;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,611.55804,16659.729};
+					id=135;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item34
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,610.6792,16658.504};
+					id=136;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.421,610.93451,16658.504};
+					id=137;
+					side="GUER";
+					vehicle="I_sniper_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.662,611.18951,16658.504};
+					id=138;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,611.44391,16658.49};
+					id=139;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item35
+		{
+			side="GUER";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={13207.18,610.56476,16657.264};
+					id=140;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+				};
+				class Item1
+				{
+					position[]={13208.42,610.81976,16657.264};
+					id=141;
+					side="GUER";
+					vehicle="I_diver_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item2
+				{
+					position[]={13209.661,611.07477,16657.264};
+					id=142;
+					side="GUER";
+					vehicle="I_medic_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+				class Item3
+				{
+					position[]={13210.906,611.32947,16657.25};
+					id=143;
+					side="GUER";
+					vehicle="I_engineer_F";
+					player="PLAY CDG";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item36
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={13203.67,609.63977,16655.057};
+					id=144;
+					side="LOGIC";
+					vehicle="HeadlessClient_F";
+					player="PLAY CDG";
+					leader=1;
+					skill=0.60000002;
+					text="HeadlessClient";
+				};
+			};
+		};
+		class Item37
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={9057.5889,194.28215,8154.77};
+					azimut=240;
+					id=145;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GenStore1";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item38
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={17183.414,207.41428,5659.4868};
+					azimut=45;
+					id=146;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GenStore3";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item39
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11410.644,114.04597,15490.668};
+					azimut=265;
+					id=147;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GenStore4";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item40
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5569.2529,35.842056,8998.2891};
+					azimut=75;
+					id=148;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GunStore1";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item41
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={15585,35.646702,16241.1};
+					azimut=180;
+					id=149;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GunStore2";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item42
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={15153.14,15.050217,9894.5449};
+					azimut=270;
+					id=150;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GunStore3";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item43
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2032.35,20.9907,17162.699};
+					azimut=270;
+					id=151;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="GunStore4";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item44
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={7499.5293,72.552742,8104.6401};
+					azimut=225;
+					id=152;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="VehStore1";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item45
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={16473.684,44.98735,11545.205};
+					azimut=45;
+					id=153;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="VehStore2";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item46
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11371.844,28.926596,1133.4681};
+					azimut=250;
+					id=154;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="VehStore3";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item47
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={10224.741,76.556541,18609.531};
+					azimut=235;
+					id=155;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="VehStore4";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item48
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={5787.8066,6.022171,14574.691};
+					azimut=190;
+					id=156;
+					side="LOGIC";
+					vehicle="C_man_1_1_F";
+					leader=1;
+					skill=0.60000002;
+					text="VehStore5";
+					init="[this] spawn A3W_fnc_setupStoreNPC";
+					description="DO NOT MODIFY IN EDITOR";
+				};
+			};
+		};
+		class Item49
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={23064.674,6.3348389,19417.688};
+					azimut=24.458799;
+					special="NONE";
+					id=157;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="SELead";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=1;
+					synchronizations[]={15};
+				};
+				class Item1
+				{
+					position[]={23061.563,6.3348389,19415.113};
+					azimut=24.458799;
+					special="NONE";
+					id=158;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="SEMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+				class Item2
+				{
+					position[]={23067.037,6.3348389,19413.939};
+					azimut=24.458799;
+					special="NONE";
+					id=159;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="SERM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+				class Item3
+				{
+					position[]={23063.322,6.3348389,19410.418};
+					azimut=24.458799;
+					special="NONE";
+					id=160;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="SEGM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=9;
+				class Item0
+				{
+					position[]={23065.195,6.3348389,19422.08};
+					combatMode="RED";
+					formation="STAG COLUMN";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={23070.727,6.3348389,19459.461};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={22955.979,6.3348389,19471.006};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={22938.346,6.3348389,19417.984};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={22899.189,6.3348389,19368.465};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={22900.342,6.3348389,19171.537};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={23027.021,6.3348389,19162.322};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={23051.205,6.3348389,19284.971};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item8
+				{
+					position[]={23083.451,6.3348389,19414.529};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item50
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={22106.27,6.3348389,19850.52};
+					id=161;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="NWLead";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=2;
+					synchronizations[]={15};
+				};
+				class Item1
+				{
+					position[]={22103.131,6.3348389,19848.092};
+					id=162;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NWMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+				class Item2
+				{
+					position[]={22107.826,6.3348389,19848.453};
+					id=163;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NWRM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+				class Item3
+				{
+					position[]={22105.93,6.3348389,19847.729};
+					id=164;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NWGM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=11;
+				class Item0
+				{
+					position[]={22106.434,6.3348389,19852.918};
+					combatMode="RED";
+					formation="STAG COLUMN";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={22114.756,6.3348389,19949.338};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={22196.367,6.3291588,20014.66};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={22298.748,6.3348389,20028.01};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={22304.336,6.3348389,19902.91};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={22318.52,6.3348389,19847.883};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={22324.969,6.3348389,19797.152};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={22274.242,6.4368386,19792.424};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item8
+				{
+					position[]={22272.092,6.3348389,19733.959};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item9
+				{
+					position[]={22061.443,6.3348389,19758.893};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item10
+				{
+					position[]={22089.816,6.3348389,19828.105};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item51
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22133.475,6.3348389,19850.902};
+					azimut=-430.86899;
+					offsetY=10;
+					special="NONE";
+					id=165;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="COLONEL";
+					skill=1;
+					text="MayorRM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+					syncId=3;
+					synchronizations[]={14};
+				};
+			};
+		};
+		class Item52
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22259.727,6.3348389,19853.426};
+					azimut=265.108;
+					offsetY=20;
+					special="NONE";
+					id=166;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="DayzLandMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE""; this forceSpeed 0; ";
+				};
+			};
+		};
+		class Item53
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22150.348,6.3348389,19912.768};
+					azimut=181.71899;
+					special="NONE";
+					id=167;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="IndustrialRM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item54
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22880.039,6.3348389,19838.404};
+					azimut=225;
+					offsetY=15;
+					special="NONE";
+					id=168;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""FirstAidKit"";};  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 6 do {this addItemToVest ""5Rnd_127x108_APDS_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 5 do {this addItemToBackpack ""5Rnd_127x108_APDS_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""11Rnd_45ACP_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_GM6_camo_F"";  this addPrimaryWeaponItem ""optic_SOS"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemRadio"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_OPFOR"";    comment ""Set identity"";  this setFace ""GreekHead_A3_02"";  this setSpeaker ""Male03GRE"";  this forceSpeed 0;";
+					syncId=4;
+					synchronizations[]={15};
+				};
+			};
+		};
+		class Item55
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22340.496,6.3348389,19735.371};
+					azimut=85;
+					offsetY=25;
+					special="NONE";
+					id=169;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""FirstAidKit"";};  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 6 do {this addItemToVest ""5Rnd_127x108_APDS_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 5 do {this addItemToBackpack ""5Rnd_127x108_APDS_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""11Rnd_45ACP_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_GM6_camo_F"";  this addPrimaryWeaponItem ""optic_SOS"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemRadio"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_OPFOR"";    comment ""Set identity"";  this setFace ""GreekHead_A3_02"";  this setSpeaker ""Male03GRE""; this forceSpeed 0;";
+					syncId=5;
+					synchronizations[]={15};
+				};
+			};
+		};
+		class Item56
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22294.736,6.3348389,20091.848};
+					azimut=22.985701;
+					special="NONE";
+					id=170;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="NWGuardMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+		};
+		class Item57
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22406.783,6.3348389,20151.25};
+					azimut=310.45999;
+					special="NONE";
+					id=171;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="NWGuardRM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item58
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22553.043,6.3348389,20088.793};
+					azimut=576.18799;
+					special="NONE";
+					id=172;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="HangarRM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item59
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22516.605,6.3348389,20016.799};
+					azimut=722.85199;
+					offsetY=10;
+					special="NONE";
+					id=173;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+		};
+		class Item60
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={22494.131,6.3348389,20067.424};
+					azimut=181.71899;
+					special="NONE";
+					id=174;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="NELead";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=6;
+					synchronizations[]={15};
+				};
+				class Item1
+				{
+					position[]={22490.611,6.3348389,20063.041};
+					azimut=181.71899;
+					special="NONE";
+					id=175;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NEMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+				class Item2
+				{
+					position[]={22502.117,6.3348389,20060.785};
+					azimut=181.71899;
+					special="NONE";
+					id=176;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NERM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+				class Item3
+				{
+					position[]={22492.959,6.3348389,20060.189};
+					azimut=181.71899;
+					special="NONE";
+					id=177;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NEGM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=12;
+				class Item0
+				{
+					position[]={22494.188,6.3348389,20069.955};
+					combatMode="RED";
+					formation="STAG COLUMN";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={22493.049,6.3348389,20136.801};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={22386.861,6.3348389,20132.969};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={22382.83,6.3348389,20060.418};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={22389.736,6.3348389,19941.799};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={22591.85,6.3348389,19946.404};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={22738.105,6.3348389,19949.859};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={22804.9,6.3348389,20042.566};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item8
+				{
+					position[]={22617.859,6.3348389,20142.42};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item9
+				{
+					position[]={22553.848,6.3348389,20024.139};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item10
+				{
+					position[]={22439.441,6.3348389,20028.889};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item11
+				{
+					position[]={22476.719,6.3348389,20064.764};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item61
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22467.596,6.3348389,20061.563};
+					azimut=434.83801;
+					special="NONE";
+					id=178;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="HangarRM2";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item62
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22796.934,6.3348389,20023.336};
+					azimut=40.623699;
+					special="NONE";
+					id=179;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="NEGuardRM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item63
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22806.758,6.3348389,19937.51};
+					azimut=22.3885;
+					offsetY=11;
+					special="NONE";
+					id=180;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="NEGuardMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+		};
+		class Item64
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22461.195,6.3348389,19450.512};
+					special="NONE";
+					id=181;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="YCYRM1";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addItemToBackpack ""Titan_AA"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item65
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22460.434,6.3348389,19512.045};
+					azimut=180.20799;
+					offsetY=20;
+					special="NONE";
+					id=182;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="YCYMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE""; this forceSpeed 0;";
+				};
+			};
+		};
+		class Item66
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22428.881,6.3348389,19455.457};
+					azimut=24.458799;
+					special="NONE";
+					id=183;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="YCYRM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item67
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=4;
+				class Item0
+				{
+					position[]={22463.242,6.3348389,19478.986};
+					azimut=24.458799;
+					special="NONE";
+					id=184;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="SWMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+				class Item1
+				{
+					position[]={22459.891,6.3348389,19482.486};
+					azimut=24.458799;
+					special="NONE";
+					id=185;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="SWLead";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=7;
+					synchronizations[]={15};
+				};
+				class Item2
+				{
+					position[]={22455.811,6.3348389,19479.768};
+					azimut=24.458799;
+					special="NONE";
+					id=186;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="SWRM";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+				class Item3
+				{
+					position[]={22459.527,6.3348389,19477.029};
+					azimut=24.458799;
+					special="NONE";
+					id=187;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="SWGM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""30Rnd_65x39_caseless_mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 6 do {this addItemToVest ""30Rnd_65x39_caseless_mag"";};  for ""_i"" from 1 to 3 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 4 do {this addItemToBackpack ""3Rnd_HE_Grenade_shell"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 2 do {this addItemToBackpack ""30Rnd_65x39_caseless_mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""arifle_MX_GL_F"";  this addPrimaryWeaponItem ""optic_Hamr"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=8;
+				class Item0
+				{
+					position[]={22463.654,6.3348389,19482.559};
+					combatMode="WHITE";
+					formation="STAG COLUMN";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={22556.287,6.3348389,19463.824};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={22584.854,6.3348389,19335.275};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={22581.605,6.3348389,19074.934};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={22351.227,6.3348389,19231.191};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={22393.561,6.3348389,19382.932};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={22332.295,6.3348389,19572.242};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={22405.01,6.3348389,19472.91};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item68
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22941.938,6.3348389,19103.023};
+					azimut=61.446499;
+					offsetY=5;
+					special="NONE";
+					id=188;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="SEGuardMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+		};
+		class Item69
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23047.465,6.3348389,19219.676};
+					azimut=-180.065;
+					special="NONE";
+					id=189;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="SEGuardRM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item70
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={23031.992,6.3348389,19401.186};
+					azimut=315;
+					offsetY=11;
+					special="NONE";
+					id=190;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  for ""_i"" from 1 to 2 do {this addItemToUniform ""FirstAidKit"";};  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 6 do {this addItemToVest ""5Rnd_127x108_APDS_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 5 do {this addItemToBackpack ""5Rnd_127x108_APDS_Mag"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""HandGrenade"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""11Rnd_45ACP_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_GM6_camo_F"";  this addPrimaryWeaponItem ""optic_SOS"";  this addWeapon ""launch_I_Titan_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Laserdesignator"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemRadio"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_OPFOR"";    comment ""Set identity"";  this setFace ""GreekHead_A3_02"";  this setSpeaker ""Male03GRE"";  this forceSpeed 0;";
+					syncId=8;
+					synchronizations[]={15};
+				};
+			};
+		};
+		class Item71
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={22673.982,6.3348389,20180.342};
+					azimut=90;
+					special="NONE";
+					id=191;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="NTDriver";
+					init="this moveindriver NT;  comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=9;
+					synchronizations[]={15};
+				};
+				class Item1
+				{
+					position[]={22670.436,6.3348389,20180.207};
+					azimut=90;
+					special="NONE";
+					id=192;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="NTGunner";
+					init="This moveingunner NT; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=12;
+				class Item0
+				{
+					position[]={22683.006,6.3348389,20180.877};
+					combatMode="RED";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={22792.127,6.3348389,20154.02};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={22886.244,6.3348389,20038.75};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={22861.943,6.3348389,19651.26};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={22181.42,6.3348389,19666.904};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={22071.828,6.3348389,19847.305};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={22104.496,6.3333421,19951.916};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={22230.965,6.3161693,20061.941};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item8
+				{
+					position[]={22315.658,6.3348389,20138.281};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item9
+				{
+					position[]={22380.791,6.3348389,20170.02};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item10
+				{
+					position[]={22511.053,6.3348389,20172.004};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item11
+				{
+					position[]={22629.412,6.3348389,20172.334};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item72
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22761.533,15.28109,19929.854};
+					azimut=90;
+					special="NONE";
+					id=193;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="NEHMGMan";
+					init="this moveingunner NEHMG; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=10;
+					synchronizations[]={15};
+				};
+			};
+		};
+		class Item73
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22339.213,6.3348389,19670.82};
+					azimut=180;
+					offsetY=25;
+					special="NONE";
+					id=194;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="NWHMGMan";
+					init="this moveinGunner NWHMG; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=11;
+					synchronizations[]={15};
+				};
+			};
+		};
+		class Item74
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=2;
+				class Item0
+				{
+					position[]={22748.748,6.3348389,19112.008};
+					azimut=90;
+					special="NONE";
+					id=195;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="STDriver";
+					init="this moveindriver ST; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=12;
+					synchronizations[]={15};
+				};
+				class Item1
+				{
+					position[]={22745.211,6.3348389,19112.314};
+					azimut=90;
+					special="NONE";
+					id=196;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="STGunner";
+					init="this moveingunner ST; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=11;
+				class Item0
+				{
+					position[]={22759.361,6.3348389,19112.775};
+					combatMode="RED";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={22987.742,6.3348389,19133.521};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={22993.232,6.3348389,19436.016};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={22869.131,6.3348389,19433.461};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={22612.248,6.3348389,19348.682};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={22538.707,6.3348389,19338.979};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={22423.287,6.3348389,19237.35};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={22293.061,6.3348389,19391.58};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item8
+				{
+					position[]={22421.758,6.3348389,19548.365};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item9
+				{
+					position[]={22622.611,6.3348389,19519.26};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item10
+				{
+					position[]={22719.998,6.3348389,19129.703};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item75
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=3;
+				class Item0
+				{
+					position[]={22624.533,6.3348389,20245.123};
+					azimut=90;
+					special="NONE";
+					id=197;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					rank="CAPTAIN";
+					skill=1;
+					text="GHDriver";
+					init="this moveindriver GH; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+					syncId=13;
+					synchronizations[]={15};
+				};
+				class Item1
+				{
+					position[]={22616.342,6.3348389,20246.795};
+					azimut=90;
+					special="NONE";
+					id=198;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="GHGunner";
+					init="this moveinturret [SBGhost, [1]]; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+				class Item2
+				{
+					position[]={22611.014,6.3348389,20243.057};
+					azimut=90;
+					special="NONE";
+					id=199;
+					side="CIV";
+					vehicle="C_man_1";
+					skill=1;
+					text="GHGunner2";
+					init="this moveinturret [SBGhost, [2]]; comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+			class Waypoints
+			{
+				items=12;
+				class Item0
+				{
+					position[]={22644.502,6.3348389,20244.473};
+					combatMode="RED";
+					speed="LIMITED";
+					combat="SAFE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item1
+				{
+					position[]={22794.049,6.1667609,20232.465};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item2
+				{
+					position[]={23042.447,6.2563992,19970.143};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item3
+				{
+					position[]={23138.533,6.1454539,19761.09};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item4
+				{
+					position[]={23165.811,6.2216148,19386.285};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item5
+				{
+					position[]={23075.115,6.2951484,19144.867};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item6
+				{
+					position[]={22506.914,6.3348389,18975.473};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item7
+				{
+					position[]={22182.803,6.3348389,19223.559};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item8
+				{
+					position[]={21949.387,6.3343596,19630.369};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item9
+				{
+					position[]={21953.389,6.1973143,19863.785};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item10
+				{
+					position[]={22508.248,6.3348389,20247.92};
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+				class Item11
+				{
+					position[]={22596.369,6.3348389,20246.623};
+					type="CYCLE";
+					class Effects
+					{
+					};
+					showWP="NEVER";
+				};
+			};
+		};
+		class Item76
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22317.504,6.3348389,19883.842};
+					azimut=40.623699;
+					special="NONE";
+					id=200;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="MayorGuardMG";
+					init="comment ""Exported from Arsenal by [GWI] SeaBase"";    comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  this addBackpack ""B_Kitbag_rgr"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""FirstAidKit"";};  this addItemToBackpack ""150Rnd_762x51_Box"";  this addItemToBackpack ""Titan_AT"";  this addItemToBackpack ""Titan_AP"";  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""LMG_Zafir_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_I_Titan_short_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";  ";
+				};
+			};
+		};
+		class Item77
+		{
+			side="CIV";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22276.129,6.3348389,19948.074};
+					azimut=261.888;
+					special="NONE";
+					id=201;
+					side="CIV";
+					vehicle="C_man_1";
+					leader=1;
+					skill=1;
+					text="MayorGaurdRM";
+					init="comment ""Remove existing items"";  removeAllWeapons this;  removeAllItems this;  removeAllAssignedItems this;  removeUniform this;  removeVest this;  removeBackpack this;  removeHeadgear this;  removeGoggles this;    comment ""Add containers"";  this forceAddUniform ""U_C_Driver_4"";  this addItemToUniform ""FirstAidKit"";  this addItemToUniform ""11Rnd_45ACP_Mag"";  this addVest ""V_TacVest_blk"";  for ""_i"" from 1 to 2 do {this addItemToVest ""FirstAidKit"";};  for ""_i"" from 1 to 4 do {this addItemToVest ""20Rnd_762x51_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""11Rnd_45ACP_Mag"";};  for ""_i"" from 1 to 2 do {this addItemToVest ""HandGrenade"";};  this addBackpack ""B_Kitbag_rgr"";  this addItemToBackpack ""Medikit"";  for ""_i"" from 1 to 2 do {this addItemToBackpack ""NLAW_F"";};  for ""_i"" from 1 to 3 do {this addItemToBackpack ""20Rnd_762x51_Mag"";};  this addHeadgear ""H_HelmetCrew_B"";  this addGoggles ""G_Bandanna_shades"";    comment ""Add weapons"";  this addWeapon ""srifle_EBR_F"";  this addPrimaryWeaponItem ""acc_pointer_IR"";  this addPrimaryWeaponItem ""optic_Arco"";  this addWeapon ""launch_NLAW_F"";  this addWeapon ""hgun_Pistol_heavy_01_F"";  this addHandgunItem ""optic_MRD"";  this addWeapon ""Binocular"";    comment ""Add items"";  this linkItem ""ItemMap"";  this linkItem ""ItemCompass"";  this linkItem ""ItemWatch"";  this linkItem ""ItemGPS"";  this linkItem ""NVGoggles_INDEP"";    comment ""Set identity"";  this setFace ""GreekHead_A3_07"";  this setSpeaker ""Male01GRE"";";
+				};
+			};
+		};
+		class Item78
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22131.561,6.3348389,19856.508};
+					id=202;
+					side="LOGIC";
+					vehicle="HighCommand";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=14;
+					synchronizations[]={3,15};
+				};
+			};
+		};
+		class Item79
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={22565.535,6.3348389,19721.908};
+					id=203;
+					side="LOGIC";
+					vehicle="HighCommandSubordinate";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+					syncId=15;
+					synchronizations[]={14,11,5,4,10,6,9,13,2,7,1,8,12};
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=37;
+		class Item0
+		{
+			position[]={3817.9243,36.115631,7329.9175};
+			azimut=297.65201;
+			offsetY=0.15000001;
+			id=204;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="[this] call A3W_fnc_setupMissionATM";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item1
+		{
+			position[]={1862.4102,20.990738,17268.451};
+			azimut=180;
+			id=205;
+			side="EMPTY";
+			vehicle="Land_Atm_01_F";
+			skill=0.60000002;
+			init="[this] call A3W_fnc_setupMissionATM";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item2
+		{
+			position[]={9416.6738,194.28215,7763.2271};
+			azimut=127;
+			offsetY=0.15000001;
+			id=206;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="[this] call A3W_fnc_setupMissionATM";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item3
+		{
+			position[]={15262.839,15.050217,9341.5234};
+			azimut=90.281013;
+			offsetY=0.15000001;
+			id=207;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="[this] call A3W_fnc_setupMissionATM";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item4
+		{
+			position[]={5479.8682,15.675537,14728.139};
+			azimut=341;
+			offsetY=0.15000001;
+			id=208;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="[this] call A3W_fnc_setupMissionATM";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item5
+		{
+			position[]={10196.808,76.644104,19024.506};
+			azimut=312;
+			id=209;
+			side="EMPTY";
+			vehicle="Land_Atm_02_F";
+			skill=0.60000002;
+			init="[this] call A3W_fnc_setupMissionATM";
+			description="DO NOT MODIFY IN EDITOR";
+		};
+		class Item6
+		{
+			position[]={1862.645,20.990738,17269.879};
+			azimut=90;
+			offsetY=1;
+			id=210;
+			side="EMPTY";
+			vehicle="UserTexture1m_F";
+			skill=0.60000002;
+			text="PROMOTOR_GORACK_A_1";
+			init="this setObjectTexture [0, ""client\images\promoteTextures\gorack_dot_net-001.jpg""]; this attachTo [sign, [0,-0.05,0.6]]; ";
+		};
+		class Item7
+		{
+			position[]={15262.908,15.050217,9343.0029};
+			azimut=90;
+			offsetY=2;
+			id=211;
+			side="EMPTY";
+			vehicle="UserTexture1m_F";
+			skill=0.60000002;
+			text="PROMOTOR_GORACK_A_5";
+			init="this setObjectTexture [0, ""client\images\promoteTextures\gorack_dot_net-001.jpg""]; this attachTo [sign, [0,-0.05,0.6]]; ";
+		};
+		class Item8
+		{
+			position[]={3818.7036,36.115631,7331.1406};
+			azimut=297.64999;
+			offsetY=2;
+			id=212;
+			side="EMPTY";
+			vehicle="UserTexture1m_F";
+			skill=0.60000002;
+			text="PROMOTOR_GORACK_A_6";
+			init="this setObjectTexture [0, ""client\images\promoteTextures\gorack_dot_net-001.jpg""]; this attachTo [sign, [0,-0.05,0.6]]; ";
+		};
+		class Item9
+		{
+			position[]={9415.8545,194.28215,7761.9199};
+			azimut=307;
+			offsetY=2;
+			id=213;
+			side="EMPTY";
+			vehicle="UserTexture1m_F";
+			skill=0.60000002;
+			text="PROMOTOR_GORACK_A_3";
+			init="this setObjectTexture [0, ""client\images\promoteTextures\gorack_dot_net-001.jpg""]; this attachTo [sign, [0,-0.05,0.6]]; ";
+		};
+		class Item10
+		{
+			position[]={10195.862,76.644104,19023.48};
+			azimut=132;
+			offsetY=2;
+			id=214;
+			side="EMPTY";
+			vehicle="UserTexture1m_F";
+			skill=0.60000002;
+			text="PROMOTOR_GORACK_A_5_1";
+			init="this setObjectTexture [0, ""client\images\promoteTextures\gorack_dot_net-001.jpg""]; this attachTo [sign, [0,-0.05,0.6]]; ";
+		};
+		class Item11
+		{
+			position[]={6882.7998,70.199089,8381.6494};
+			azimut=30.279499;
+			special="NONE";
+			id=215;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_2";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item12
+		{
+			position[]={1039.9429,25.356379,17756.73};
+			azimut=96.126503;
+			special="NONE";
+			id=216;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_1";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item13
+		{
+			position[]={5669.8213,45.673813,17052.885};
+			azimut=30.279499;
+			special="NONE";
+			id=217;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_3";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item14
+		{
+			position[]={11088.358,114.04597,15863.381};
+			azimut=30.279499;
+			special="NONE";
+			id=218;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_4";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item15
+		{
+			position[]={8500.7168,75.016083,10829.973};
+			azimut=69.169502;
+			special="NONE";
+			id=219;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_5";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item16
+		{
+			position[]={16701.758,44.98735,10581.874};
+			azimut=-47.026901;
+			special="NONE";
+			id=220;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_6";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item17
+		{
+			position[]={8538.9346,168.09448,19983.061};
+			azimut=-54.569599;
+			special="NONE";
+			id=221;
+			side="EMPTY";
+			vehicle="O_Truck_03_ammo_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Service_Truck_7";
+			init="this call A3W_fnc_setupResupplyTruck";
+			description="Service";
+		};
+		class Item18
+		{
+			position[]={5481.3062,15.675537,14728.729};
+			azimut=341;
+			offsetY=2;
+			id=222;
+			side="EMPTY";
+			vehicle="UserTexture1m_F";
+			skill=0.60000002;
+			text="PROMOTOR_GORACK_A_7";
+			init="this setObjectTexture [0, ""client\images\promoteTextures\gorack_dot_net-001.jpg""]; this attachTo [sign, [0,0,0]]; ";
+		};
+		class Item19
+		{
+			position[]={16450.797,44.98735,11337.318};
+			azimut=-47.8661;
+			special="NONE";
+			id=223;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_6";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item20
+		{
+			position[]={12624.156,64.059555,12269.999};
+			azimut=-47.8661;
+			special="NONE";
+			id=224;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_1";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item21
+		{
+			position[]={9163.3936,10,14930.492};
+			azimut=-47.8661;
+			special="NONE";
+			id=225;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_2";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item22
+		{
+			position[]={15196.298,34.297432,16992.738};
+			azimut=-47.8661;
+			special="NONE";
+			id=226;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_4";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item23
+		{
+			position[]={10415.736,74.266968,6765.9165};
+			azimut=-47.8661;
+			special="NONE";
+			id=227;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_5";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item24
+		{
+			position[]={10265.688,78.949951,18196.975};
+			azimut=-47.8661;
+			special="NONE";
+			id=228;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_7";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item25
+		{
+			position[]={1047.762,29.740993,18172.514};
+			azimut=-47.8661;
+			special="NONE";
+			id=229;
+			side="EMPTY";
+			vehicle="B_Truck_01_box_F";
+			leader=1;
+			lock="LOCKED";
+			skill=0.60000002;
+			text="Sell_Truck_8";
+			init="this call A3W_fnc_setupSellTruck";
+			description="Sell Vehicle";
+		};
+		class Item26
+		{
+			position[]={22136.596,6.3348389,19851.594};
+			azimut=90;
+			offsetY=10;
+			special="NONE";
+			id=230;
+			side="EMPTY";
+			vehicle="Box_NATO_WpsSpecial_F";
+			skill=0.60000002;
+			init="clearitemcargoglobal this;   clearmagazineCargoglobal this;    clearweaponcargoglobal this;      this additemcargoglobal [""U_I_Protagonist_VR"", 6];  this additemcargoglobal [""U_O_Protagonist_VR"", 6];  this additemcargoglobal [""U_B_Protagonist_VR"", 6];";
+		};
+		class Item27
+		{
+			position[]={22458.371,6.3348389,19440.32};
+			special="NONE";
+			id=231;
+			side="EMPTY";
+			vehicle="Box_NATO_WpsSpecial_F";
+			skill=0.60000002;
+			init="clearitemcargoglobal this;   clearmagazineCargoglobal this;    clearweaponcargoglobal this;      this addweaponcargoglobal [""launch_I_Titan_short_F"", 3];    this addweaponcargoglobal [""launch_O_Titan_F"", 3];     this addmagazinecargoglobal [""Titan_AA"", 4];    this addmagazinecargoglobal [""Titan_AT"", 4];    this addmagazinecargoglobal [""Titan_AP"", 2];    this addmagazinecargoglobal [""APERSBoundingMine_Range_Mag"", 3];      this addmagazinecargoglobal [""DemoCharge_Remote_Mag"", 3];    ";
+		};
+		class Item28
+		{
+			position[]={22537.867,6.3348389,20050.549};
+			azimut=90;
+			special="NONE";
+			id=232;
+			side="EMPTY";
+			vehicle="Box_NATO_WpsSpecial_F";
+			skill=0.60000002;
+			init="clearitemcargoglobal this;   clearmagazineCargoglobal this;    clearweaponcargoglobal this;      this addweaponcargoglobal [""srifle_GM6_SOS_F"", 3];    this addweaponcargoglobal [""LMG_Zafir_F"", 2];  this addmagazinecargoglobal [""5Rnd_127x108_APDS_Mag"", 14];      this addmagazinecargoglobal [""150Rnd_762x51_Box"", 6];        this additemcargoglobal [""optic_Nightstalker"", 3];    this additemcargoglobal [""optic_tws"", 3];    this additemcargoglobal [""optic_Arco"", 2];  ";
+		};
+		class Item29
+		{
+			position[]={22674.654,6.3348389,20173.498};
+			azimut=90;
+			special="NONE";
+			id=233;
+			side="EMPTY";
+			vehicle="O_APC_Tracked_02_AA_F";
+			skill=0.60000002;
+			text="NT";
+		};
+		class Item30
+		{
+			position[]={22764,6.3348389,19928.014};
+			azimut=180;
+			offsetY=10;
+			special="NONE";
+			id=234;
+			side="EMPTY";
+			vehicle="B_HMG_01_high_F";
+			leader=1;
+			skill=0.60000002;
+			text="NEHMG";
+		};
+		class Item31
+		{
+			position[]={22341.207,6.3348389,19669.168};
+			azimut=489.24149;
+			offsetY=25;
+			special="NONE";
+			id=235;
+			side="EMPTY";
+			vehicle="B_HMG_01_high_F";
+			leader=1;
+			skill=0.60000002;
+			text="NWHMG";
+		};
+		class Item32
+		{
+			position[]={22751.09,6.3348389,19118.383};
+			azimut=90;
+			special="NONE";
+			id=236;
+			side="EMPTY";
+			vehicle="O_APC_Tracked_02_AA_F";
+			leader=1;
+			skill=0.60000002;
+			text="ST";
+		};
+		class Item33
+		{
+			position[]={22623.172,6.3311844,20252.338};
+			azimut=90;
+			special="FLY";
+			id=237;
+			side="EMPTY";
+			vehicle="B_Heli_Transport_01_F";
+			leader=1;
+			skill=0.60000002;
+			text="GH";
+		};
+		class Item34
+		{
+			position[]={22692.564,6.3348389,19178.148};
+			id=238;
+			side="EMPTY";
+			vehicle="I_Plane_Fighter_03_CAS_F";
+			skill=0.60000002;
+		};
+		class Item35
+		{
+			position[]={22465.418,6.3348389,19440.318};
+			special="NONE";
+			id=239;
+			side="EMPTY";
+			vehicle="Box_NATO_WpsSpecial_F";
+			skill=0.60000002;
+			init="clearitemcargoglobal this;   clearmagazineCargoglobal this;    clearweaponcargoglobal this;      this addweaponcargoglobal [""srifle_GM6_SOS_F"", 3];    this addweaponcargoglobal [""LMG_Zafir_F"", 2];  this addmagazinecargoglobal [""5Rnd_127x108_APDS_Mag"", 14];      this addmagazinecargoglobal [""150Rnd_762x51_Box"", 6];        this additemcargoglobal [""optic_Nightstalker"", 3];    this additemcargoglobal [""optic_tws"", 3];    this additemcargoglobal [""optic_Arco"", 2];  ";
+		};
+		class Item36
+		{
+			position[]={22536.67,6.3348389,20050.549};
+			azimut=90;
+			special="NONE";
+			id=240;
+			side="EMPTY";
+			vehicle="Box_NATO_WpsSpecial_F";
+			skill=0.60000002;
+			init="clearitemcargoglobal this;   clearmagazineCargoglobal this;    clearweaponcargoglobal this;      this addweaponcargoglobal [""launch_I_Titan_short_F"", 3];    this addweaponcargoglobal [""launch_O_Titan_F"", 3];     this addmagazinecargoglobal [""Titan_AA"", 4];    this addmagazinecargoglobal [""Titan_AT"", 4];    this addmagazinecargoglobal [""Titan_AP"", 2];    this addmagazinecargoglobal [""APERSBoundingMine_Range_Mag"", 3];      this addmagazinecargoglobal [""DemoCharge_Remote_Mag"", 3];    ";
+		};
+	};
+	class Markers
+	{
+		items=209;
+		class Item0
+		{
+			position[]={1951.3674,20.990738,17185.283};
+			name="Town_1";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item1
+		{
+			position[]={5026.4136,25.563385,17710.145};
+			name="Town_2";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item2
+		{
+			position[]={5462.5659,15.675537,14771.036};
+			name="Town_3";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item3
+		{
+			position[]={12669.065,64.059555,11859.777};
+			name="Town_4";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item4
+		{
+			position[]={10139.638,76.644104,19088.943};
+			name="Town_5";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item5
+		{
+			position[]={11687.996,12.6,9044.9043};
+			name="Town_6";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item6
+		{
+			position[]={10419.144,24.586319,17016.977};
+			name="Town_7";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item7
+		{
+			position[]={9201.5566,6,14112.968};
+			name="Town_8";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item8
+		{
+			position[]={15049.88,29.95525,18201.502};
+			name="Town_9";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item9
+		{
+			position[]={11711.112,114.04597,15440.473};
+			name="Town_10";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item10
+		{
+			position[]={15479.179,35.646652,16282.9};
+			name="Town_11";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item11
+		{
+			position[]={1782.807,-0.10801232,17522.77};
+			name="boatSpawn_1";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item12
+		{
+			position[]={4896.2661,-0.00039600657,8697.0508};
+			name="boatSpawn_2";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item13
+		{
+			position[]={3362.7759,-0.080266848,8002.4932};
+			name="boatSpawn_3";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item14
+		{
+			position[]={1762.8281,0.0027010995,16868.105};
+			name="boatSpawn_4";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item15
+		{
+			position[]={2034.2808,-0.00093291374,16852.305};
+			name="boatSpawn_5";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item16
+		{
+			position[]={5910.6494,-0.072148636,14508.745};
+			name="boatSpawn_6";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item17
+		{
+			position[]={17486.619,0.17806113,12999.714};
+			name="boatSpawn_7";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item18
+		{
+			position[]={18269.229,0.0043522418,9685.1289};
+			name="boatSpawn_8";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item19
+		{
+			position[]={17194.689,-0.024036055,12674.5};
+			name="boatSpawn_9";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item20
+		{
+			position[]={17238.008,0.0096082892,12755.972};
+			name="boatSpawn_10";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item21
+		{
+			position[]={8971.3057,194.28215,7990.4448};
+			name="heliSpawn_1";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item22
+		{
+			position[]={3816.5571,36.115631,6998.9282};
+			name="heliSpawn_2";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item23
+		{
+			position[]={15611.244,15.050217,9556.4912};
+			name="heliSpawn_3";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item24
+		{
+			position[]={17003.109,23.70528,12529.829};
+			name="heliSpawn_4";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item25
+		{
+			position[]={10064.267,76.644104,19136.111};
+			name="heliSpawn_5";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item26
+		{
+			position[]={17357.727,239.03151,7287.877};
+			name="heliSpawn_6";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item27
+		{
+			position[]={1040.5759,27.20784,17900.613};
+			name="heliSpawn_7";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item28
+		{
+			position[]={5579.1738,53.04026,17244.086};
+			name="heliSpawn_8";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item29
+		{
+			position[]={11680.826,114.04597,15243.208};
+			name="heliSpawn_9";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item30
+		{
+			position[]={15203.346,15.050217,9741.7197};
+			name="heliSpawn_10";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item31
+		{
+			position[]={16772.092,27.596718,12678.623};
+			name="heliSpawn_11";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item32
+		{
+			position[]={7791.8389,34.669586,4299.2725};
+			name="heliSpawn_12";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item33
+		{
+			position[]={9323.6797,6.7097778,14014.511};
+			name="heliSpawn_13";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item34
+		{
+			position[]={4129.2725,7.2911315,14116.025};
+			name="Mission_1";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item35
+		{
+			position[]={5508.5439,44.078602,17509.316};
+			name="Mission_2";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item36
+		{
+			position[]={6010.7539,89.053116,10538.05};
+			name="Mission_3";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item37
+		{
+			position[]={1449.8312,20.874149,17930.252};
+			name="Mission_4";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item38
+		{
+			position[]={17972.207,157.32123,5705.3447};
+			name="Mission_5";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item39
+		{
+			position[]={15226.575,7.1708298,14362.257};
+			name="Mission_7";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item40
+		{
+			position[]={5257.4702,37.599075,6071.8223};
+			name="Mission_8";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item41
+		{
+			position[]={16419.908,44.98735,10857.283};
+			name="Mission_9";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item42
+		{
+			position[]={8815.5254,95.005402,5599.9175};
+			name="Mission_10";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item43
+		{
+			position[]={4069.9595,35.889156,7600.9336};
+			name="Mission_11";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item44
+		{
+			position[]={10288.782,73.873528,19359.846};
+			name="Mission_12";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item45
+		{
+			position[]={2480.1802,22.593124,17214.176};
+			name="Mission_13";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item46
+		{
+			position[]={8204.6318,171.72241,20868.24};
+			name="Mission_14";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item47
+		{
+			position[]={10376.185,13.64779,1194.6765};
+			name="Mission_15";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item48
+		{
+			position[]={13316.23,55.613068,12705.92};
+			name="Mission_16";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item49
+		{
+			position[]={17622.086,226.30605,7471.5278};
+			name="Mission_17";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item50
+		{
+			position[]={10203.073,11.966265,11580.628};
+			name="Mission_18";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item51
+		{
+			position[]={7715.6855,72.616707,6976.2153};
+			name="Mission_19";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item52
+		{
+			position[]={9029.292,23.489895,15242.688};
+			name="Mission_20";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item53
+		{
+			position[]={8863.2305,173.17336,19434.924};
+			name="Town_12";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item54
+		{
+			position[]={16893.209,24.586319,12686.158};
+			name="Town_13";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item55
+		{
+			position[]={9202.4707,194.28215,8002.5093};
+			name="Town_14";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item56
+		{
+			position[]={5491.8843,35.842056,8603.1797};
+			name="heliSpawn_14";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item57
+		{
+			position[]={17437.742,177.01897,6385.6265};
+			name="heliSpawn_15";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item58
+		{
+			position[]={14859.472,15.050217,9385.2646};
+			name="heliSpawn_16";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item59
+		{
+			position[]={15455.724,35.646652,16218.351};
+			name="heliSpawn_17";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item60
+		{
+			position[]={1980.2363,20.990738,17203.449};
+			name="heliSpawn_18";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item61
+		{
+			position[]={8564.2344,184.00621,19649.861};
+			name="heliSpawn_19";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item62
+		{
+			position[]={15166.968,15.050217,9690.6104};
+			name="Town_15";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item63
+		{
+			position[]={11316.186,26.299845,957.5166};
+			name="heliSpawn_20";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item64
+		{
+			position[]={11362.706,114.04597,15920.477};
+			name="heliSpawn_21";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item65
+		{
+			position[]={7435.3276,34.669586,4369.332};
+			name="heliSpawn_22";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item66
+		{
+			position[]={3143.5007,37.170532,7472.5908};
+			name="heliSpawn_23";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item67
+		{
+			position[]={11010.006,6.061264,18805.068};
+			name="Town_16";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item68
+		{
+			position[]={10669.531,0.038618032,14040.826};
+			name="boatSpawn_11";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item69
+		{
+			position[]={10784.803,-0.011452466,14824.667};
+			name="boatSpawn_12";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item70
+		{
+			position[]={10404.876,-0.24633875,16709.59};
+			name="boatSpawn_13";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item71
+		{
+			position[]={8809.7881,-0.0047997134,14012.102};
+			name="boatSpawn_14";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item72
+		{
+			position[]={5827.3271,-0.19925906,14808.741};
+			name="boatSpawn_15";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item73
+		{
+			position[]={12679.146,867.01654,17455.633};
+			name="milSpawn_2";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item74
+		{
+			position[]={16084.608,15.852898,17002.037};
+			name="milSpawn_3";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item75
+		{
+			position[]={14992.329,39.254063,18069.258};
+			name="milSpawn_5";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item76
+		{
+			position[]={11301.711,20.1514,17803.414};
+			name="milSpawn_6";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item77
+		{
+			position[]={17427.08,13.768087,13176.61};
+			name="milSpawn_7";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item78
+		{
+			position[]={17614.455,230.12703,7278.6953};
+			name="milSpawn_8";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item79
+		{
+			position[]={13331.994,57.094326,19123.09};
+			name="milSpawn_9";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item80
+		{
+			position[]={16147.842,34.091259,14655.247};
+			name="milSpawn_10";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item81
+		{
+			position[]={18023.418,141.29039,6526.5186};
+			name="milSpawn_11";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item82
+		{
+			position[]={12048.831,21.685251,9169.1875};
+			name="milSpawn_12";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item83
+		{
+			position[]={8798.5947,75.461922,10606.265};
+			name="milSpawn_13";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item84
+		{
+			position[]={14585.606,17.91,16843.018};
+			name="milSpawn_14";
+			type="Empty";
+			colorName="ColorKhaki";
+		};
+		class Item85
+		{
+			position[]={7502.9121,72.364922,8038.0381};
+			name="VehStore1_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=220;
+		};
+		class Item86
+		{
+			position[]={7467.3198,72.178169,8063.7168};
+			name="VehStore1_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=220;
+		};
+		class Item87
+		{
+			position[]={5255.5405,-0.014162142,9266.2637};
+			name="VehStore1_seaSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item88
+		{
+			position[]={16508.867,44.98735,11581.482};
+			name="VehStore2_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=90;
+		};
+		class Item89
+		{
+			position[]={16608.895,44.98735,11526.762};
+			name="VehStore2_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=270;
+		};
+		class Item90
+		{
+			position[]={16511.303,44.98735,11462.83};
+			name="VehStore2_planeSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=180;
+		};
+		class Item91
+		{
+			position[]={11337.47,28.664501,1119.7708};
+			name="VehStore3_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item92
+		{
+			position[]={11383.095,28.575071,1113.9497};
+			name="VehStore3_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item93
+		{
+			position[]={10193.411,76.72438,18595.967};
+			name="VehStore4_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=235;
+		};
+		class Item94
+		{
+			position[]={10183.078,76.788994,18615.879};
+			name="VehStore4_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=235;
+		};
+		class Item95
+		{
+			position[]={10160.762,77.103317,18580.295};
+			name="VehStore4_planeSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=155;
+		};
+		class Item96
+		{
+			position[]={10975.73,-0.030653015,6034.1719};
+			name="boatSpawn_16";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item97
+		{
+			position[]={11306.39,-0.15932165,18744.418};
+			name="boatSpawn_17";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item98
+		{
+			position[]={11230.475,0.020048067,18877.641};
+			name="boatSpawn_18";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item99
+		{
+			position[]={14976.816,0.022100583,18652.184};
+			name="boatSpawn_19";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item100
+		{
+			position[]={14901.916,-0.21993777,18712.945};
+			name="boatSpawn_20";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item101
+		{
+			position[]={16184.066,0.018627001,16307.4};
+			name="boatSpawn_22";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item102
+		{
+			position[]={6229.0273,0.00057910616,17069.016};
+			name="boatSpawn_21";
+			type="Empty";
+			colorName="ColorBlue";
+		};
+		class Item103
+		{
+			position[]={16726.512,44.98735,10481.654};
+			name="planeSpawn_1";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=270;
+		};
+		class Item104
+		{
+			position[]={7674.8174,72.625336,7927.1514};
+			name="planeSpawn_5";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=220;
+		};
+		class Item105
+		{
+			position[]={16727.043,44.98735,10429.799};
+			name="planeSpawn_3";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=270;
+		};
+		class Item106
+		{
+			position[]={16727.08,44.98735,10380.158};
+			name="planeSpawn_7";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=270;
+		};
+		class Item107
+		{
+			position[]={15398.453,122.75001,8179.3262};
+			name="Mission_6";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item108
+		{
+			position[]={7715.4966,72.500458,7895.3311};
+			name="planeSpawn_6";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=220;
+		};
+		class Item109
+		{
+			position[]={10229.972,76.683182,18489.143};
+			name="planeSpawn_2";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=240;
+		};
+		class Item110
+		{
+			position[]={9067.8574,194.28215,8142.7329};
+			name="GenStore1_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item111
+		{
+			position[]={17188.018,208.00008,5645.207};
+			name="GenStore3_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item112
+		{
+			position[]={11400.81,114.04597,15508.621};
+			name="GenStore4_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item113
+		{
+			position[]={5586.8892,35.849903,9005.0195};
+			name="GunStore1_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item114
+		{
+			position[]={15584.592,35.646652,16258.612};
+			name="GunStore2_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item115
+		{
+			position[]={15150.953,15.050217,9883.915};
+			name="GunStore3_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item116
+		{
+			position[]={2013.8335,20.990738,17163.752};
+			name="GunStore4_objSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item117
+		{
+			position[]={17318.121,239.03151,7490.4482};
+			name="Town_17";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item118
+		{
+			position[]={5802.7461,33.067215,9913.5117};
+			name="Town_18";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item119
+		{
+			position[]={5548.2871,35.842056,8760.7109};
+			name="Town_19";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item120
+		{
+			position[]={16232.146,44.98735,11584.747};
+			name="Town_20";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item121
+		{
+			position[]={25413.316,9.9176807,20335.285};
+			name="TERRITORY_EAST_POWER_PLANT_1";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=60;
+			angle=147.856;
+		};
+		class Item122
+		{
+			position[]={3556.2014,0.0014854376,8002.7959};
+			name="SunkenMission_0";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item123
+		{
+			position[]={17530.475,-0.032359179,13034.498};
+			name="SunkenMission_1";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item124
+		{
+			position[]={6040.8809,-0.014045376,15512.858};
+			name="SunkenMission_2";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item125
+		{
+			position[]={5427.4409,0.0052320003,9757.5684};
+			name="SunkenMission_3";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item126
+		{
+			position[]={8052.0024,0.0036299091,2991.4001};
+			name="SunkenMission_4";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item127
+		{
+			position[]={8718.1504,-0.0010915361,14457.319};
+			name="SunkenMission_5";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item128
+		{
+			position[]={11430.741,0.016003933,18638.711};
+			name="SunkenMission_6";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item129
+		{
+			position[]={1708.9819,-0.0055680964,17209.594};
+			name="SunkenMission_7";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item130
+		{
+			position[]={15208.778,0.0011890829,10496.229};
+			name="SunkenMission_8";
+			type="Empty";
+			colorName="ColorWhite";
+		};
+		class Item131
+		{
+			position[]={16727.893,44.98735,10331.854};
+			name="planeSpawn_4";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=270;
+		};
+		class Item132
+		{
+			position[]={7538.6445,72.391708,7949.4448};
+			name="VehStore1_planeSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+			angle=315;
+		};
+		class Item133
+		{
+			position[]={10274.499,76.683182,18398.496};
+			name="planeSpawn_8";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=240;
+		};
+		class Item134
+		{
+			position[]={7754.3838,72.385086,7864.3931};
+			name="planeSpawn_9";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=220;
+		};
+		class Item135
+		{
+			position[]={10257.15,76.683182,18445.977};
+			name="planeSpawn_10";
+			type="Empty";
+			colorName="ColorGUER";
+			angle=240;
+		};
+		class Item136
+		{
+			position[]={3829.4429,36.115631,7171.5425};
+			name="Town_21";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item137
+		{
+			position[]={10636.609,67.417641,6546.9531};
+			name="Town_22";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item138
+		{
+			position[]={3919.9048,21.07642,17681.549};
+			name="Town_23";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item139
+		{
+			position[]={8924.1738,10.259527,2300.5798};
+			name="Town_24";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item140
+		{
+			position[]={17586.592,177.0468,6318.3638};
+			name="Town_25";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item141
+		{
+			position[]={11020.74,16.397549,719.73456};
+			name="Town_26";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item142
+		{
+			position[]={3351.4568,34.278763,7534.7041};
+			name="Town_27";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item143
+		{
+			position[]={7697.0576,34.669598,4282.6313};
+			name="Town_28";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item144
+		{
+			position[]={14036.739,58.001785,12265.377};
+			name="Town_29";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item145
+		{
+			position[]={16179.508,35.646652,13663.492};
+			name="Town_30";
+			type="Empty";
+			colorName="ColorRed";
+		};
+		class Item146
+		{
+			position[]={13212.894,612.60034,16666.598};
+			name="respawn_west";
+			type="Empty";
+			colorName="ColorWEST";
+		};
+		class Item147
+		{
+			position[]={13212.895,612.4389,16664.848};
+			name="respawn_east";
+			type="Empty";
+			colorName="ColorEAST";
+		};
+		class Item148
+		{
+			position[]={13212.895,612.27832,16663.105};
+			name="respawn_guerrila";
+			type="Empty";
+			colorName="ColorGUER";
+		};
+		class Item149
+		{
+			position[]={13212.894,612.11749,16661.361};
+			name="respawn_civilian";
+			type="Empty";
+			colorName="ColorCIV";
+		};
+		class Item150
+		{
+			position[]={5809.0776,1.8429966,14560.887};
+			name="VehStore5_landSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item151
+		{
+			position[]={5765.4761,6.022171,14604.043};
+			name="VehStore5_heliSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item152
+		{
+			position[]={5866.1719,0.035472631,14592.803};
+			name="VehStore5_seaSpawn";
+			type="Empty";
+			colorName="ColorBlack";
+		};
+		class Item153
+		{
+			position[]={6880.5718,70.182106,8381.7871};
+			name="Service_Truck_2";
+			text="Service_Truck_2";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item154
+		{
+			position[]={15261.463,15.050217,9342.1582};
+			name="ATM";
+			text="ATM";
+			type="mil_box";
+			colorName="ColorOrange";
+			a=0.30000001;
+			b=0.30000001;
+		};
+		class Item155
+		{
+			position[]={1864.1084,20.990738,17269.014};
+			name="ATM_1";
+			text="ATM";
+			type="mil_box";
+			colorName="ColorOrange";
+			a=0.30000001;
+			b=0.30000001;
+		};
+		class Item156
+		{
+			position[]={5480.6616,15.675537,14727.779};
+			name="ATM_1_1";
+			text="ATM";
+			type="mil_box";
+			colorName="ColorOrange";
+			a=0.30000001;
+			b=0.30000001;
+			angle=-1.1615601;
+		};
+		class Item157
+		{
+			position[]={3819.4407,36.115631,7329.3853};
+			name="ATM_1_1_1";
+			text="ATM";
+			type="mil_box";
+			colorName="ColorOrange";
+			a=0.30000001;
+			b=0.30000001;
+		};
+		class Item158
+		{
+			position[]={9411.6699,194.28215,7766.4224};
+			name="ATM_1_1_2";
+			text="ATM";
+			type="mil_box";
+			colorName="ColorOrange";
+			a=0.30000001;
+			b=0.30000001;
+		};
+		class Item159
+		{
+			position[]={10197.226,76.644104,19023.658};
+			name="ATM_2";
+			text="ATM";
+			type="mil_box";
+			colorName="ColorOrange";
+			a=0.30000001;
+			b=0.30000001;
+			angle=-38.382946;
+		};
+		class Item160
+		{
+			position[]={1046.0839,25.170967,17759.566};
+			name="Service_Truck_1";
+			text="Service_Truck_1";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item161
+		{
+			position[]={5672.751,45.376972,17040.574};
+			name="Service_Truck_3";
+			text="Service_Truck_3";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item162
+		{
+			position[]={11088.078,114.04597,15863.701};
+			name="Service_Truck_4";
+			text="Service_Truck_4";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item163
+		{
+			position[]={8500.2061,75.006508,10829.509};
+			name="Service_Truck_5";
+			text="Service_Truck_5";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item164
+		{
+			position[]={16700.541,44.98735,10582.176};
+			name="Service_Truck_6";
+			text="Service_Truck_6";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item165
+		{
+			position[]={8529.1758,167.90277,19983.111};
+			name="Service_Truck_7";
+			text="Service_Truck_7";
+			type="Empty";
+			colorName="ColorYellow";
+		};
+		class Item166
+		{
+			position[]={16449.342,44.98735,11337.79};
+			name="Sell_Truck_1";
+			text="Sell_Truck_1";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item167
+		{
+			position[]={12622.291,64.059555,12271.388};
+			name="Sell_Truck_2";
+			text="Sell_Truck_2";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item168
+		{
+			position[]={9162.9561,10,14929.956};
+			name="Sell_Truck_3";
+			text="Sell_Truck_3";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item169
+		{
+			position[]={15194.397,34.447529,16993.191};
+			name="Sell_Truck_5";
+			text="Sell_Truck_5";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item170
+		{
+			position[]={10415.337,74.250687,6764.2266};
+			name="Sell_Truck_7";
+			text="Sell_Truck_7";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item171
+		{
+			position[]={10266.179,78.949951,18199.104};
+			name="Sell_Truck_8";
+			text="Sell_Truck_8";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item172
+		{
+			position[]={1048.0026,29.723982,18172.863};
+			name="Sell_Truck_9";
+			text="Sell_Truck_9";
+			type="Empty";
+			colorName="ColorGreen";
+		};
+		class Item173
+		{
+			position[]={1527.7638,20.973358,17436.455};
+			name="TERRITORY_0_VLADIMIR_C";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=30;
+			b=40;
+			angle=8;
+		};
+		class Item174
+		{
+			position[]={1524.6949,20.970961,17440.969};
+			name="FLAG_0_VLADIMIR_C";
+			text="C";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item175
+		{
+			position[]={1909.0872,20.990738,17184.445};
+			name="TERRITORY_0_VLADIMIR_B";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=20;
+			b=20;
+		};
+		class Item176
+		{
+			position[]={1908.2728,20.990738,17184.242};
+			name="FLAG_0_VLADIMIR_B";
+			text="B";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item177
+		{
+			position[]={1822.4409,6.022171,16917.807};
+			name="TERRITORY_0_VLADIMIR_A";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=20;
+		};
+		class Item178
+		{
+			position[]={1822.921,6.022171,16917.969};
+			name="FLAG_0_VLADIMIR_A";
+			text="A";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item179
+		{
+			position[]={3872.8237,43.706116,7297.5264};
+			name="TERRITORY_1_MITROVICE_A";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=25;
+			b=30;
+			angle=298;
+		};
+		class Item180
+		{
+			position[]={3872.9436,36.115631,7299.6274};
+			name="FLAG_1_MITROVICE_A";
+			text="A";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item181
+		{
+			position[]={3847.0093,36.115631,7002.1816};
+			name="TERRITORY_1_MITROVICE_B";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=10;
+			b=20;
+		};
+		class Item182
+		{
+			position[]={3848.0437,36.115631,7001.6631};
+			name="FLAG_1_MITROVICE_B";
+			text="B";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item183
+		{
+			position[]={3326.7776,57.329842,7513.2842};
+			name="TERRITORY_1_MITROVICE_C";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=15;
+			b=10;
+			angle=160;
+		};
+		class Item184
+		{
+			position[]={3326.5645,34.278763,7513.3242};
+			name="FLAG_1_MITROVICE_C";
+			text="C";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item185
+		{
+			position[]={5905.3062,33.067215,9900.4297};
+			name="TERRITORY_2_CHERNOVAR_A";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=30;
+			b=30;
+		};
+		class Item186
+		{
+			position[]={5907.1421,33.067215,9901.3467};
+			name="FLAG_2_CHERNOVAR_A";
+			text="A";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item187
+		{
+			position[]={6342.2593,138.19722,9544.3945};
+			name="TERRITORY_2_CHERNOVAR_B";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=20;
+			b=20;
+		};
+		class Item188
+		{
+			position[]={6342.0952,137.80635,9545.0781};
+			name="FLAG_2_CHERNOVAR_B";
+			text="B";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item189
+		{
+			position[]={5510.3096,6.061264,9734.3965};
+			name="TERRITORY_2_CHERNOVAR_C";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=15;
+			b=35;
+		};
+		class Item190
+		{
+			position[]={5509.1704,6.061264,9734.8066};
+			name="FLAG_2_CHERNOVAR_C";
+			text="C";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item191
+		{
+			position[]={14899.619,15.050217,9368.123};
+			name="TERRITORY_3_SABINA_A";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=10;
+			b=10;
+		};
+		class Item192
+		{
+			position[]={14899.15,15.050217,9367.6084};
+			name="FLAG_3_SABINA_A";
+			text="A";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item193
+		{
+			position[]={15168.88,6.0701776,10009.989};
+			name="TERRITORY_3_SABINA_B";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=30;
+			b=30;
+		};
+		class Item194
+		{
+			position[]={15168.881,5.8798079,10009.132};
+			name="FLAG_3_SABINA_B";
+			text="B";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item195
+		{
+			position[]={15514.417,15.050217,9563.001};
+			name="TERRITORY_3_SABINA_C";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=40;
+			b=20;
+		};
+		class Item196
+		{
+			position[]={15512.779,15.050217,9564.6338};
+			name="FLAG_3_SABINA_C";
+			text="C";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item197
+		{
+			position[]={14500.084,15.050217,10448.737};
+			name="TERRITORY_3_SABINA_D";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=50;
+			b=50;
+		};
+		class Item198
+		{
+			position[]={14504.553,15.050217,10448.537};
+			name="FLAG_3_SABINA_D";
+			text="D";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item199
+		{
+			position[]={22132.254,6.3348389,19851.07};
+			name="TERRITORY_4_SECTORB_A";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=15;
+			b=12;
+		};
+		class Item200
+		{
+			position[]={22131.457,6.3348389,19852.029};
+			name="FLAG_4_SECTORB_A";
+			text="A";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item201
+		{
+			position[]={22497.371,6.3348389,20058.008};
+			name="TERRITORY_4_SECTORB_B";
+			markerType="ELLIPSE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=70;
+			b=60;
+		};
+		class Item202
+		{
+			position[]={22495.908,6.3348389,20060.633};
+			name="FLAG_4_SECTORB_B";
+			text="B";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item203
+		{
+			position[]={22898.436,6.3348389,19856.297};
+			name="TERRITORY_4_SECTORB_C";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=20;
+			b=20;
+		};
+		class Item204
+		{
+			position[]={22899.111,6.3348389,19856.52};
+			name="FLAG_4_SECTORB_C";
+			text="C";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item205
+		{
+			position[]={22938.266,6.3348389,19278.602};
+			name="TERRITORY_4_SECTORB_D";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=30;
+			b=70;
+		};
+		class Item206
+		{
+			position[]={22938.373,6.3348389,19276.998};
+			name="FLAG_4_SECTORB_D";
+			text="D";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+		class Item207
+		{
+			position[]={22462.535,6.3348389,19472.914};
+			name="TERRITORY_4_SECTORB_E";
+			markerType="RECTANGLE";
+			type="Empty";
+			colorName="ColorYellow";
+			fillName="DiagGrid";
+			a=30;
+			b=30;
+		};
+		class Item208
+		{
+			position[]={22460.723,6.3348389,19472.553};
+			name="FLAG_4_SECTORB_E";
+			text="E";
+			type="mil_flag";
+			colorName="ColorYellow";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"tavi"
+	};
+	addOnsAuto[]=
+	{
+		"tavi"
+	};
+	randomSeed=14094245;
+	class Intel
+	{
+		timeOfChanges=3e+038;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.001;
+		forecastFogDecay=0.001;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"a3_map_altis",
+		"tavi"
+	};
+	addOnsAuto[]=
+	{
+		"tavi"
+	};
+	randomSeed=14521529;
+	class Intel
+	{
+		timeOfChanges=3e+038;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.001;
+		forecastFogDecay=0.001;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"a3_map_altis",
+		"tavi"
+	};
+	addOnsAuto[]=
+	{
+		"tavi"
+	};
+	randomSeed=14971574;
+	class Intel
+	{
+		timeOfChanges=3e+038;
+		startWeather=0;
+		startWind=0;
+		forecastWeather=0;
+		forecastWind=0;
+		forecastWaves=0;
+		year=2035;
+		month=6;
+		day=24;
+		hour=12;
+		minute=0;
+		startFogDecay=0.001;
+		forecastFogDecay=0.001;
+	};
+};
