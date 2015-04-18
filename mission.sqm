@@ -4025,7 +4025,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=209;
+		items=215;
 		class Item0
 		{
 			position[]={1951.3674,20.990738,17185.283};
@@ -5106,7 +5106,7 @@ class Mission
 			name="VehStore5_landSpawn";
 			type="Empty";
 			colorName="ColorBlack";
-			angle=270
+			angle=270;
 		};
 		class Item151
 		{
@@ -5641,9 +5641,9 @@ class Mission
 			type="mil_flag";
 			colorName="ColorYellow";
 		};
-			class Item209
+		class Item209
 		{
-			position[]={9415.2607,96.458878,4202.5801};
+			position[]={9415.7422,107.62824,4202.356};
 			name="TERRITORY_5_PLANT_A";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -5654,7 +5654,7 @@ class Mission
 		};
 		class Item210
 		{
-			position[]={9412.0713,96.458878,4201.5151};
+			position[]={9413.2188,96.458878,4202.1274};
 			name="FLAG_5_PLANT_A";
 			text="A";
 			type="mil_flag";
@@ -5662,10 +5662,10 @@ class Mission
 		};
 		class Item211
 		{
-			position[]={9521.582,96.458878,4614.0425};
+			position[]={9523.4668,96.458878,4612.7456};
 			name="TERRITORY_5_PLANT_B";
 			markerType="ELLIPSE";
-			type="mil_flag";
+			type="Empty";
 			colorName="ColorYellow";
 			fillName="DiagGrid";
 			a=40;
@@ -5673,7 +5673,7 @@ class Mission
 		};
 		class Item212
 		{
-			position[]={9518.9238,96.458878,4614.5752};
+			position[]={9523.4648,96.458878,4611.9082};
 			name="FLAG_5_PLANT_B";
 			text="B";
 			type="mil_flag";
@@ -5681,7 +5681,7 @@ class Mission
 		};
 		class Item213
 		{
-			position[]={9395.3203,96.927872,4860.7407};
+			position[]={9395.0908,96.927872,4861.4458};
 			name="TERRITORY_5_PLANT_C";
 			markerType="RECTANGLE";
 			type="Empty";
@@ -5692,7 +5692,7 @@ class Mission
 		};
 		class Item214
 		{
-			position[]={9395.0908,96.927872,4861.2002};
+			position[]={9395.0908,96.927872,4860.9146};
 			name="FLAG_5_PLANT_C";
 			text="C";
 			type="mil_flag";
