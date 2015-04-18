@@ -3,7 +3,12 @@
 // ******************************************************************************************
 //	@file Name: setupClientPVars.sqf
 //	@file Author: AgentRev
-
+//
+// Update: Motavar@judgement.net
+// Port: A3Wasteland 
+// Updated For Vehicle Radar
+// Date: 4/5/15
+// 
 #define PVAL (_this select 1)
 #define PVAR_TARGET(CODE) _params = PVAL; if ((_params select 0) call isPVarTarget) then { _value = _params select 1; CODE };
 
@@ -21,6 +26,7 @@
 	["pvar_weaponDisassembledEvent", { PVAL spawn weaponDisassembledEvent }],
 	["pvar_ejectCorpse", { PVAL spawn fn_ejectCorpse }],
 
+	["clientRadarMarkers", { PVAL call updateRadarMarkers }],
 	["pvar_territoryActivityHandler", { PVAR_TARGET(_value call A3W_fnc_territoryActivityHandler) }],
 	["pvar_updateTerritoryMarkers", { PVAR_TARGET(_value call updateTerritoryMarkers) }]
 ];
