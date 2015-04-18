@@ -29,7 +29,10 @@
 	["TERRITORY_4_SECTORB_B", "Sector B (B)", 5000],
 	["TERRITORY_4_SECTORB_C", "Sector B (C)", 5000],
 	["TERRITORY_4_SECTORB_D", "Sector B (D)", 5000],
-	["TERRITORY_4_SECTORB_E", "Sector B (E)", 5000]
+	["TERRITORY_4_SECTORB_E", "Sector B (E)", 5000],
+	["TERRITORY_5_PLANT_A", "NPP Treblyanka (A)", 3500],
+	["TERRITORY_5_PLANT_B", "NPP Treblyanka (B)", 3500],
+	["TERRITORY_5_PLANT_C", "NPP Treblyanka (C)", 3500]
 	
 
 ]
