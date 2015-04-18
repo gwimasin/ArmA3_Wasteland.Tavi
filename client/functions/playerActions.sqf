@@ -5,12 +5,7 @@
 //	@file Name: playerActions.sqf
 //	@file Author: [404] Deadbeat, [404] Costlyy, [GoT] JoSchaap, AgentRev
 //	@file Created: 20/11/2012 05:19
-//
-// Update: Motavar@judgement.net
-// Port: A3Wasteland 
-// VEHICLE RADAR MENU SELECTION
-// Date: 4/5/15
-// 
+
 { [player, _x] call fn_addManagedAction } forEach
 [
 	["Holster Weapon", { player action ["SwitchWeapon", player, player, 100] }, [], -11, false, false, "", "vehicle player == player && currentWeapon player != ''"],
@@ -33,10 +28,7 @@
 	["Push vehicle backward", "server\functions\pushVehicle.sqf", [-2.5], 1, false, false, "", "[-2.5] call canPushWatercraft"],
 
 	["<t color='#FF0000'>Emergency eject</t>",  { [[], fn_emergencyEject] execFSM "call.fsm" }, [], -9, false, true, "", "(vehicle player) isKindOf 'Air' && !((vehicle player) isKindOf 'ParachuteBase')"],
-	["<t color='#FF00FF'>Open magic parachute</t>", { [[], fn_openParachute] execFSM "call.fsm" }, [], 20, true, true, "", "vehicle player == player && (getPos player) select 2 > 2.5"],
-
-	["<t color='#00FF00'>Radar ON</t>", "client\actions\RadarDeploy.sqf", [], 6, false, false, "", "_trgt = cursorTarget; _trgt distance _this <= 4 && (_trgt getVariable ['isRadarVeh', false])"], 
-	["<t color='#FF0000'>Radar OFF</t>", "client\actions\RadarPack.sqf", [], 6, false, false, "", "_trgt = cursorTarget; _trgt distance _this <= 4 && (_trgt getVariable ['isRadarVeh', false])"]
+	["<t color='#FF00FF'>Open magic parachute</t>", { [[], fn_openParachute] execFSM "call.fsm" }, [], 20, true, true, "", "vehicle player == player && (getPos player) select 2 > 2.5"]
 ];
 
 
