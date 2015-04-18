@@ -1829,7 +1829,7 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={5569.2529,35.842056,8998.2891};
+					position[]={5456.9985,35.842056,8775.0928};
 					azimut=75;
 					id=148;
 					side="LOGIC";
@@ -3572,7 +3572,7 @@ class Mission
 		};
 		class Item2
 		{
-			position[]={9417.2314,194.28215,7762.9189};
+			position[]={9418.709,194.28215,7761.8901};
 			azimut=127;
 			offsetY=0.15000001;
 			id=206;
@@ -3655,8 +3655,8 @@ class Mission
 		};
 		class Item9
 		{
-			position[]={9415.8545,194.28215,7761.9199};
-			azimut=307;
+			position[]={9417.583,194.28215,7760.6089};
+			azimut=127;
 			offsetY=2;
 			id=213;
 			side="EMPTY";
@@ -4025,7 +4025,7 @@ class Mission
 	};
 	class Markers
 	{
-		items=215;
+		items=219;
 		class Item0
 		{
 			position[]={1951.3674,20.990738,17185.283};
@@ -4217,7 +4217,7 @@ class Mission
 		};
 		class Item27
 		{
-			position[]={1040.5759,27.20784,17900.613};
+			position[]={1525.4299,20.990738,17331.51};
 			name="heliSpawn_7";
 			type="Empty";
 			colorName="ColorGreen";
@@ -4602,7 +4602,7 @@ class Mission
 		};
 		class Item82
 		{
-			position[]={12048.831,21.685251,9169.1875};
+			position[]={11576.285,20.418463,9234.6787};
 			name="milSpawn_12";
 			type="Empty";
 			colorName="ColorKhaki";
@@ -4833,10 +4833,11 @@ class Mission
 		};
 		class Item113
 		{
-			position[]={5586.8892,35.849903,9005.0195};
+			position[]={5453.1958,35.842056,8785.9443};
 			name="GunStore1_objSpawn";
 			type="Empty";
 			colorName="ColorBlack";
+			angle=345;
 		};
 		class Item114
 		{
@@ -5102,7 +5103,7 @@ class Mission
 		};
 		class Item150
 		{
-			position[]={5785.5083,6.022171,14604.035};
+			position[]={5788.4238,6.022171,14604.868};
 			name="VehStore5_landSpawn";
 			type="Empty";
 			colorName="ColorBlack";
@@ -5173,7 +5174,7 @@ class Mission
 		};
 		class Item158
 		{
-			position[]={9415.1836,194.28215,7763.4102};
+			position[]={9416.8574,194.28215,7762.4355};
 			name="ATM_1_1_2";
 			text="ATM";
 			type="mil_box";
@@ -5697,6 +5698,34 @@ class Mission
 			text="C";
 			type="mil_flag";
 			colorName="ColorYellow";
+		};
+		class Item215
+		{
+			position[]={7700.0308,16.768023,11857.439};
+			name="Mission_21";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item216
+		{
+			position[]={14302.921,25.367907,19019.473};
+			name="Mission_22";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item217
+		{
+			position[]={1664.4479,37.048428,7571.085};
+			name="Mission_23";
+			type="Empty";
+			colorName="ColorOrange";
+		};
+		class Item218
+		{
+			position[]={18929.498,18.911997,3269.8887};
+			name="Mission_24";
+			type="Empty";
+			colorName="ColorOrange";
 		};
 	};
 };
