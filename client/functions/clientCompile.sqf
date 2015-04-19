@@ -84,6 +84,7 @@ timeSync = "client\functions\clientTimeSync.sqf" call mf_compile;
 
 // Update scripts
 updateRadarMarkers = "client\functions\UpdatePlayerRadarMarkers.sqf" call mf_compile;
+updateTeamKiller = "client\functions\updateTeamKiller.sqf" call mf_compile;
 // Team-kill system
 teamkillAction = "client\functions\doTeamKillAction.sqf" call mf_compile;
 teamkillMessage = "client\functions\showTeamKillMessage.sqf" call mf_compile;
