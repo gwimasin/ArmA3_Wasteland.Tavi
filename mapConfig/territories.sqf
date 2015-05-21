@@ -12,24 +12,25 @@
 // 4 - Territory category, currently unused. See territory/README.md for details.
 
 [
-	["TERRITORY_0_VLADIMIR_A", "Vladimir (A)", 3500],
-	["TERRITORY_0_VLADIMIR_B", "Vladimir (B)", 3500],
-	["TERRITORY_0_VLADIMIR_C", "Vladimir (C)", 3500],
-	["TERRITORY_1_MITROVICE_A", "Mitrovice (A)", 3500],
-	["TERRITORY_1_MITROVICE_B", "Mitrovice (B)", 3500],
-	["TERRITORY_1_MITROVICE_C", "Mitrovice (C)", 3500],
-	["TERRITORY_2_CHERNOVAR_A", "Chernovar (A)", 3500],
-	["TERRITORY_2_CHERNOVAR_B", "Chernovar (B)", 3500],
-	["TERRITORY_2_CHERNOVAR_C", "Chernovar (C)", 3500],
-	["TERRITORY_3_SABINA_A", "Sabina (A)", 3500],
-	["TERRITORY_3_SABINA_B", "Sabina (B)", 3500],
-	["TERRITORY_3_SABINA_C", "Sabina (C)", 3500],
-	["TERRITORY_3_SABINA_D", "Sabina (D)", 3500],
-	["TERRITORY_4_SECTORB_A", "Sector B (A)", 5000],
-	["TERRITORY_4_SECTORB_B", "Sector B (B)", 5000],
-	["TERRITORY_4_SECTORB_C", "Sector B (C)", 5000],
-	["TERRITORY_4_SECTORB_D", "Sector B (D)", 5000],
-	["TERRITORY_4_SECTORB_E", "Sector B (E)", 5000]
-	
-
+	["TERRITORY_0_VLADIMIR_A", "Vladimir (A)", 10000],
+	["TERRITORY_0_VLADIMIR_B", "Vladimir (B)", 10000],
+	["TERRITORY_0_VLADIMIR_C", "Vladimir (C)", 10000],
+	["TERRITORY_1_MITROVICE_A", "Mitrovice (A)", 10000],
+	["TERRITORY_1_MITROVICE_B", "Mitrovice (B)", 10000],
+	["TERRITORY_1_MITROVICE_C", "Mitrovice (C)", 10000],
+	["TERRITORY_2_CHERNOVAR_A", "Chernovar (A)", 10000],
+	["TERRITORY_2_CHERNOVAR_B", "Chernovar (B)", 10000],
+	["TERRITORY_2_CHERNOVAR_C", "Chernovar (C)", 10000],
+	["TERRITORY_3_SABINA_A", "Sabina (A)", 10000],
+	["TERRITORY_3_SABINA_B", "Sabina (B)", 10000],
+	["TERRITORY_3_SABINA_C", "Sabina (C)", 10000],
+	["TERRITORY_3_SABINA_D", "Sabina (D)", 10000],
+	["TERRITORY_4_SECTORB_A", "Sector B (A)", 10000],
+	["TERRITORY_4_SECTORB_B", "Sector B (B)", 10000],
+	["TERRITORY_4_SECTORB_C", "Sector B (C)", 10000],
+	["TERRITORY_4_SECTORB_D", "Sector B (D)", 10000],
+	["TERRITORY_4_SECTORB_E", "Sector B (E)", 10000],
+	["TERRITORY_5_PLANT_A", "NPP Treblyanka (A)", 10000],
+	["TERRITORY_5_PLANT_B", "NPP Treblyanka (B)", 10000],
+	["TERRITORY_5_PLANT_C", "NPP Treblyanka (C)", 10000]
 ]
