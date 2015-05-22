@@ -1,4 +1,28 @@
 TOPArma A3Wasteland series built for Arma 2 map Taviana
+Initial Release - 13 April 2015 Release v2.0 - 16 May 2015
+
+UPDATE FOR FEATURED SERVER - 21 MAY 2015
+Changed - Updated Point Capture Rewards from 3500 to 10000 for Featured Server Week
+
+UPDATE v0.15 - 18 APRIL 2015
+Fixed - Sector B guards spawning with obscene amount of rockets (Seabase)
+Fixed - Vehicle stores fixed, vehicles should no longer blow up when bought (Masin)
+Fixed - Sabina territory too small for location (Masin)
+Fixed - ATM Locations and bearings to fit against buildings (Masin)
+Fixed - Various Store Fixes and debugging (Masin)
+
+Added - New territory capture points at Nuclear Power Plant (Masin)
+Added - New Capture Radar Truck mission (Motavar)
+Added - More mission spawn points (Masin)
+Added - 3 New Side missions (Masin)
+
+Changed - Mission loot brought down to balanced levels with Sector B (Seabase)
+Changed - Bilgrad Gun Store location (Masin)
+Changed - Gun store interaction distance increased to 4m from 3m (Motavar)
+
+Removed - Kajmans and Blackfoots from Hostile Helicopter missions (Seabase)
+
+TOPArma A3Wasteland series built for Arma 2 map Taviana
 Initial Release - 13 April 2015
 
 UPDATE v0.15 - 18 APRIL 2015
